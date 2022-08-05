@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h2>Checkout</h2>
+      </header>
+
+      <main>
+        <div class="item">
+          <img src="../assets/images/photo1.png" alt="User item" />
+
+          <div class="item-name">
+            <h4>vintage backbag</h4>
+            <span class="new_value">$54.99</span>
+            <span clas="old_value">$94.99</span>
+          </div>
+
+          <div class="qtde-item">
+            <span>&minus;</span>
+            <span> 1 </span>
+            <span>&plus;</span>
+          </div>
+        </div>
+
+        <div class="full_value">
+          <div>
+            <span>Shipping</span>
+            <span>$19</span>
+          </div>
+          <div>
+            <span>Total</span>
+            <span>$148.98</span>
+          </div>
+        </div>
+      </main>
+      <aside>
+        <form>
+          <div class="information">
+            <h3>Contact Infomation</h3>
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone"
+              />
+            </div>
+          </div>
+
+          <div class="information">
+            <h3>Shipping address</h3>
+            <div class="input-wrapper">
+              <label for="name">Full name</label>
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="input-wrapper">
+              <label for="addres">Addres</label>
+              <input
+                type="text"
+                name="addres"
+                id="addres"
+                placeholder="Your addres"
+              />
+            </div>
+            <div class="input-wrapper">
+              <label for="city">City</label>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Your city"
+              />
+            </div>
+            <div class="col-2">
+              <div class="input-wrapper">
+                <label for="country">Country</label>
+                <select name="country" id="Country">
+                  <option value="Brasil">Brasil</option>
+                  <option value="United States">United States</option>
+                  <option value="China">China</option>
+                  <option value="Canada">Canada</option>
+                </select>
+              </div>
+              <div class="input-wrapper">
+                <label for="postal_code">Postal code</label>
+                <input
+                  type="number"
+                  name="postal_code"
+                  id="postal_code"
+                  placeholder="Enter your phone"
+                />
+              </div>
+            </div>
+
+            <input type="checkbox" id="save" name="save" value="save" />
+            <label for="save">Save this information for next time</label>
+          </div>
+          <div class="button">
+            <input type="button" value="Continue" />
+          </div>
+        </form>
+      </aside>
+
+      <footer>
+        <p>
+          created by
+          <a href="https://github.com/eduardongomes">Eduardo N Gomes</a> -
+          devChallenges.io
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
