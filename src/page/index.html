@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Store</title>
+
+    <link rel="stylesheet" href="../style/styles.css" />
   </head>
   <body>
     <div class="page">
@@ -13,30 +23,48 @@
       </header>
 
       <main>
-        <div class="item">
-          <img src="../assets/images/photo1.png" alt="User item" />
+        <div class="items">
+          <div class="item">
+            <img src="../assets/images/photo1.png" alt="User item" />
 
-          <div class="item-name">
-            <h4>vintage backbag</h4>
-            <span class="new_value">$54.99</span>
-            <span clas="old_value">$94.99</span>
+            <div class="item-name">
+              <h4>Vintage backbag</h4>
+              <span class="new_value">$54.99</span>
+              <span class="old_value">$94.99</span>
+            </div>
+
+            <div class="qtde-item">
+              <button>&minus;</button>
+              <span> 1 </span>
+              <button>&plus;</button>
+            </div>
           </div>
 
-          <div class="qtde-item">
-            <span>&minus;</span>
-            <span> 1 </span>
-            <span>&plus;</span>
-          </div>
-        </div>
+          <div class="item">
+            <img src="../assets/images/photo2.png" alt="User item" />
 
-        <div class="full_value">
-          <div>
-            <span>Shipping</span>
-            <span>$19</span>
+            <div class="item-name">
+              <h4>Levi shoes</h4>
+              <span class="new_value">$74.99</span>
+              <span class="old_value">$124.99</span>
+            </div>
+
+            <div class="qtde-item">
+              <button>&minus;</button>
+              <span> 1 </span>
+              <button>&plus;</button>
+            </div>
           </div>
-          <div>
-            <span>Total</span>
-            <span>$148.98</span>
+
+          <div class="full_value">
+            <div>
+              <span>Shipping</span>
+              <span>$19</span>
+            </div>
+            <div>
+              <span>Total</span>
+              <span>$148.98</span>
+            </div>
           </div>
         </div>
       </main>
@@ -109,9 +137,10 @@
                 />
               </div>
             </div>
-
-            <input type="checkbox" id="save" name="save" value="save" />
-            <label for="save">Save this information for next time</label>
+            <div class="checkbox">
+              <input type="checkbox" id="save" name="save" value="save" />
+              <label for="save">Save this information for next time</label>
+            </div>
           </div>
           <div class="button">
             <input type="button" value="Continue" />
