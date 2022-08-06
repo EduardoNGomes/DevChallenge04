@@ -25,7 +25,7 @@ header {
 }
 
 main {
-  display: grid;
+  grid-area: main;
 }
 
 main .items {
@@ -137,6 +137,7 @@ main .items .full_value div {
 }
 
 aside {
+  grid-area: aside;
   margin: 20px;
 }
 
@@ -234,6 +235,7 @@ aside {
 }
 
 footer {
+  grid-area: footer;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -250,4 +252,39 @@ footer a {
   color: #747474;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 100%;
+  }
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      'header header'
+      'aside  main'
+      'aside  .'
+      'footer footer';
+    gap: 30px;
+  }
+  header {
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 15px;
+    justify-self: start;
+    align-self: flex-end;
+    text-align: center;
+  }
+
+  main {
+    height: 100%;
+  }
+
+  .full_value {
+    margin-top: 0;
+  }
 }
