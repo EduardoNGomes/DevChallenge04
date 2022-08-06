@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://eduardongomes.github.io/DevChallenge04/">
+    https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://eduardongomes.github.io/DevChallenge04/">
       Solution
     </a>
     <span> | </span>
