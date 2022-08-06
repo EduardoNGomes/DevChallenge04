@@ -8,7 +8,8 @@
 
 <div align="center">
   <h3>
-    https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1
+     <a href="https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1
+">
       Demo
     </a>
     <span> | </span>
