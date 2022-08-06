@@ -45,6 +45,7 @@ main .item {
   grid-template-areas:
     'img item'
     'img quant';
+  gap: 30px;
 }
 main .item img {
   grid-area: img;
@@ -306,10 +307,6 @@ footer a {
     justify-self: start;
     align-self: flex-end;
     text-align: center;
-  }
-
-  main {
-    height: 100%;
   }
 
   .full_value {
