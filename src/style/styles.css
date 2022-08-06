@@ -174,20 +174,44 @@ aside {
 
   color: #4f4f4f;
 }
+.input-wrapper div {
+  display: flex;
+  justify-items: center;
+}
 .input-wrapper input {
   margin-top: 3px;
-  margin-left: 1px;
   margin-bottom: 1.6rem;
 
   padding: 10px;
+  border-left: none;
 
-  border: 1px solid #828282;
-  border-radius: 12px;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
+  border-right: 1px solid #848282;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+
+  width: 100%;
+}
+
+.input-wrapper span {
+  margin-top: 3px;
+  margin-bottom: 1.6rem;
+  padding: 10px;
+  padding-right: 0;
+
+  border-left: 1px solid #848282;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
+
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .col-2 {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
 .input-wrapper select {
@@ -197,8 +221,12 @@ aside {
 
   padding: 9px;
 
-  border: 1px solid #828282;
-  border-radius: 12px;
+  border-left: none;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
+  border-right: 1px solid #848282;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .checkbox {
